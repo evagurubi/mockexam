@@ -1,0 +1,89 @@
+body {
+  background-color: rgba(218, 192, 79, 0.89);
+}
+
+.maindiv {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100vw;
+}
+.maindiv .menudiv {
+  height: 15vh;
+}
+.maindiv .menudiv .fas {
+  color: #3f3c3c;
+  font-weight: bold;
+  height: 8vw;
+  position: fixed;
+  right: 30px;
+  top: 30px;
+}
+.maindiv .left {
+  background-color: #3f3c3c;
+  height: 80vh;
+  width: 40vw;
+  display: flex;
+  margin-top: 10vh;
+  margin-left: 10vh;
+  justify-content: center;
+  align-items: center;
+}
+.maindiv .right {
+  padding: 20vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+.maindiv .right .text {
+  width: 70%;
+}
+.maindiv .right p {
+  margin-bottom: 5vh;
+}
+.maindiv .right h1 {
+  margin-bottom: 5vh;
+}
+
+@media screen and (max-width: 900px) {
+  .maindiv {
+    display: block;
+    height: 100vh;
+    width: 100vw;
+  }
+  .maindiv .left {
+    background-color: #3f3c3c;
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .maindiv .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+  }
+  .maindiv .right .menudiv {
+    height: 15vh;
+  }
+  .maindiv .right .menudiv .fas {
+    color: #3f3c3c;
+    font-weight: bold;
+    height: 8vw;
+    position: fixed;
+    right: 30px;
+    top: 30px;
+  }
+  .maindiv .right p {
+    margin-bottom: 5vh;
+  }
+  .maindiv .right h1 {
+    margin-bottom: 5vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
